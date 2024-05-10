@@ -186,16 +186,112 @@ h1 sup {
   
 
 
-@media(max-width: 900px) {
-    .page-content h1 {
-        font-size: 10vw;
+  @media (max-width: 414px) {
+    .cube-container {
+        height: 120px;  
+        width: 240px;  
+        margin: 10px auto;
+        position: relative;
+        perspective-origin: 50% 50%;
     }
 
-    h1 sup {
-        font-size: 4vw;
+    .cube {
+        width: 120px; 
+        height: 120px; 
+        position: absolute;
+        transform-style: preserve-3d;
     }
-}
-  
+
+    .item {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 200px;
+    }
+
+    .cube .side {
+        width: 120px;   
+        height: 120px;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .cube .front {
+      transform: translateZ(60px); 
+    }
+
+    .cube .back {
+      transform: rotateX(180deg) translateZ(60px);
+    }
+
+    .cube .top {
+      transform: rotateX(90deg) translateZ(60px);
+    }
+
+    .cube .bottom {
+      transform: rotateX(-90deg) translateZ(60px);
+    }
+
+    .cube p {
+        font-size: 16px; 
+        transform: translate(-50%, -50%) scale(0.8); 
+    }
+  }
+
+
+@media (max-width: 375px) {
+    .cube-container {
+        height: 100px;
+        width: 200px;
+    }
+
+    .cube {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cube .side {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cube .front, .cube .back, .cube .top, .cube .bottom {
+        transform: translateZ(50px);
+    }
+
+    .cube p {
+        font-size: 14px; 
+        transform: translate(-50%, -50%) scale(0.7); 
+    }
+  }
+
+@media (max-width: 320px) {
+    .cube-container {
+        height: 80px;
+        width: 160px;
+    }
+
+    .cube {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cube .side {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cube .front, .cube .back, .cube .top, .cube .bottom {
+        transform: translateZ(40px);
+    }
+
+    .cube p {
+        font-size: 12px;
+        transform: translate(-50%, -50%) scale(0.6); 
+    }
+  }
 
   
 
