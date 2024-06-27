@@ -4,7 +4,7 @@ import "./studio.css";
 const page = () => {
     return (
         <div className="container">
-            <p>Films </p>
+            <p>Studio </p>
             <div className="projects">
                 <div className="project" id="header">
                     <div className="client">

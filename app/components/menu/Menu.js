@@ -99,7 +99,7 @@ const Menu = () => {
               <div className="menu-info">
                 <div className="menu-info-col">
                   <a href="#">X &#8599;</a>
-                  <a href="#">Instagram &#8599;</a>
+                  <a href="https://www.instagram.com/newbedrock_/">Instagram &#8599;</a>
                   <a href="#">LinkedIn&#8599;</a>
                   <a href="#">Vimeo &#8599;</a>
                 </div>

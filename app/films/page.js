@@ -20,20 +20,22 @@ const films = () => {
                         <p>Year</p>
                     </div>
                 </div>
-                <div className="project" id="p1">
-                    <div className="client">
-                        <p>Pit Walks</p>
+                <a href="https://www.instagram.com/newbedrock_/">
+                    <div className="project" id="p1">
+                        <div className="client">
+                            <p >Pit Walks</p>
+                        </div>
+                        <div className="location">
+                            <p>New York City</p>
+                        </div>
+                        <div className="service">
+                            <p>Videography</p>
+                        </div>
+                        <div className="year">
+                            <p>2023</p>
+                        </div>
                     </div>
-                    <div className="location">
-                        <p>New York City</p>
-                    </div>
-                    <div className="service">
-                        <p>Videography</p>
-                    </div>
-                    <div className="year">
-                        <p>2023</p>
-                    </div>
-                </div>
+                </a>
                 <div className="project" id="p2">
                     <div className="client">
                         <p>Project 2</p>

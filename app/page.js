@@ -71,71 +71,73 @@ export default function Home() {
   }, []);
 
   return (
-    <div  className="projects-container">
-      <div className="item project-1">
-        <div className="cube-container">
-          <div className="cube">
-            <div className="side front">
-              <p></p>
+      <div  className="projects-container">
+        <p><u>collaborations</u></p>
+        <div className="item project-1">
+          <div className="cube-container">
+            <div className="cube">
+              <div className="side front">
+                <p></p>
+              </div>
+              <div className="side back">
+                <p></p>
+              </div>
+              <div className="side top">
+                <p></p>
+              </div>
+              <div className="side bottom">
+                <p></p>
+              </div>
             </div>
-            <div className="side back">
-              <p></p>
-            </div>
-            <div className="side top">
-              <p></p>
-            </div>
-            <div className="side bottom">
-              <p></p>
+            <div className="cube" style={{ left: '50%' }}>
+              <div className="side front">
+                <Image src="/images/IMG_9222.png" alt="" width={300} height={300} />
+              </div>
+              <div className="side back">
+                <Image src="/images/IMG_9223.png" alt="" width={300} height={300} />
+              </div>
+              <div className="side top">
+                <Image src="/images/IMG_9226.png" alt="" width={300} height={300} />
+              </div>
+              <div className="side bottom">
+                <Image src="/images/IMG_9229.png" alt="" width={300} height={300} />
+              </div>
             </div>
           </div>
-          <div className="cube" style={{ left: '50%' }}>
-            <div className="side front">
-              <Image src="/images/IMG_9222.png" alt="" width={300} height={300} />
+        </div>
+        <div className="item project-2">
+          <div className="cube-container">
+            <div className="cube">
+              <div className="side front">
+                <p></p>
+              </div>
+              <div className="side back">
+                <p></p>
+              </div>
+              <div className="side top">
+                <p></p>
+              </div>
+              <div className="side bottom">
+                <p></p>
+              </div>
             </div>
-            <div className="side back">
-              <Image src="/images/IMG_9223.png" alt="" width={300} height={300} />
-            </div>
-            <div className="side top">
-              <Image src="/images/IMG_9226.png" alt="" width={300} height={300} />
-            </div>
-            <div className="side bottom">
-              <Image src="/images/IMG_9229.png" alt="" width={300} height={300} />
+            <div className="cube" style={{ left: '50%' }}>
+              <div className="side front">
+                <Image src="/images/img5.png" alt="" width={300} height={300} />
+              </div>
+              <div className="side back">
+                <Image src="/images/img6.png" alt="" width={300} height={300} />
+              </div>
+              <div className="side top">
+                <Image src="/images/img7.png" alt="" width={300} height={300} />
+              </div>
+              <div className="side bottom">
+                <Image src="/images/img8.png" alt="" width={300} height={300} />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="item project-2">
-        <div className="cube-container">
-          <div className="cube">
-            <div className="side front">
-              <p></p>
-            </div>
-            <div className="side back">
-              <p></p>
-            </div>
-            <div className="side top">
-              <p></p>
-            </div>
-            <div className="side bottom">
-              <p></p>
-            </div>
-          </div>
-          <div className="cube" style={{ left: '50%' }}>
-            <div className="side front">
-              <Image src="/images/img5.png" alt="" width={300} height={300} />
-            </div>
-            <div className="side back">
-              <Image src="/images/img6.png" alt="" width={300} height={300} />
-            </div>
-            <div className="side top">
-              <Image src="/images/img7.png" alt="" width={300} height={300} />
-            </div>
-            <div className="side bottom">
-              <Image src="/images/img8.png" alt="" width={300} height={300} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
   );
 }
